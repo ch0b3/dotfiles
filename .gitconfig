@@ -1,0 +1,10 @@
+[user]
+	email = osakaya555@gmail.com
+	name = takashi
+[alias]
+	st = status
+	co = checkout
+	cm = commit -m
+	sp = stash pop
+	br = branch
+	poh= push origin head

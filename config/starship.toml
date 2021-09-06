@@ -1,0 +1,12 @@
+[package]
+disabled = true
+
+[directory]
+truncation_length = 100
+truncate_to_repo = false
+
+[memory_usage]
+disabled = false
+threshold = -1
+symbol = " "
+style = "bold dimmed blue"
