@@ -1,7 +1,6 @@
 brew "awscli"
 brew "node"
 brew "nodebrew"
-brew "docker"
 brew "openssl@1.1"
 brew "peco"
 brew "starship"
