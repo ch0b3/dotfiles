@@ -10,6 +10,5 @@ brew "rbenv"
 brew "redis"
 brew "ruby-build"
 
-cask "docker"↲
-cask "ngrok"↲
-cask "dynamodb-local"↲
+cask "ngrok"
+cask "dynamodb-local"
