@@ -6,6 +6,7 @@ brew "peco"
 brew "starship"
 brew "python@3.9"
 brew "rbenv"
+brew "gmp"
 brew "redis"
 brew "ruby-build"
 
