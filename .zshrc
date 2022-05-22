@@ -1,12 +1,18 @@
 export PATH=$HOME/.rbenv/shims:$PATH
 export PATH="/opt/homebrew/bin:$PATH"
 
-# Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+
+# go
 export PATH="$PATH:/usr/local/go/bin"
 export GOPATH="$HOME/project/product"
-# export PATH="$PATH:$HOME/.nodebrew/current/bin"
+# export GOPATH=$HOME/go↲
+# export PATH=$GOPATH/bin:$PATH↲
+# export GO111MODULE=on↲
+
+# node
 export PATH="$HOME/.nodebrew/current/bin:$PATH"
+# export PATH="$PATH:$HOME/.nodebrew/current/bin"
 
 eval "$(starship init zsh)"
 
@@ -120,6 +126,7 @@ POWERLEVEL9K_DISABLE_RPROMPT=true
 # export ARCHFLAGS="-arch x86_64"
 #
 alias zshconfig="vim ~/.zshrc"
+alias zshsource="source ~/.zshrc"
 alias d="docker"
 alias dc="docker-compose"
 alias dcr="docker-compose run --rm"
