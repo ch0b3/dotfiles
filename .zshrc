@@ -1,7 +1,7 @@
 export PATH=$HOME/.rbenv/shims:$PATH
 export PATH="/opt/homebrew/bin:$PATH"
 
-export ZSH="$HOME/.oh-my-zsh"
+# export ZSH="$HOME/.oh-my-zsh"
 
 # go
 export PATH="$PATH:/usr/local/go/bin"
@@ -20,10 +20,10 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init --path)"
 
-fpath=($HOME/homebrew/share/zsh-completions $fpath)
+# fpath=($HOME/homebrew/share/zsh-completions $fpath)
 
-autoload -U compinit
-compinit -u
+#autoload -U compinit
+#compinit -u
 
 # history
 
@@ -33,8 +33,8 @@ SAVEHIST=1000000
 
 # share .zshhistory
 
-setopt inc_append_history
-setopt share_history
+#setopt inc_append_history
+#setopt share_history
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -103,7 +103,7 @@ setopt share_history
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
-source $ZSH/oh-my-zsh.sh
+# source $ZSH/oh-my-zsh.sh
 
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs)
 POWERLEVEL9K_DISABLE_RPROMPT=true
@@ -164,7 +164,7 @@ function peco-cdr () {
     zle accept-line
 }
 zle -N peco-cdr
-bindkey '^E' peco-cdr
+bindkey '^T' peco-cdr
 
 # git branch * peco
 function peco-git-recent-branches () {
@@ -179,3 +179,6 @@ function peco-git-recent-branches () {
 }
 zle -N peco-git-recent-branches
 bindkey "^b" peco-git-recent-branches
+
+[ -f ~/.zshrc.local ] && source ~/.zshrc.local
+

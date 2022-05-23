@@ -31,3 +31,6 @@ brew bundle
 
 brew cleanup
 
+ln -s $PWD/.zshrc $HOME/.zshrc
+source $HOME/.zshrc
+
