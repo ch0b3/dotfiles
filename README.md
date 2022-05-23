@@ -7,6 +7,6 @@ $ ./install.sh
 
 # Set per environment
 
-- Zsh 
+- Zsh  
 Please fix `~/.zshrc.local`
 
