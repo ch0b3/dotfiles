@@ -4,3 +4,9 @@ $ git clone git@github.com:takashi-5/dotfiles.git
 $ cd dotfiles
 $ ./install.sh
 ```
+
+# Set per environment
+
+- Zsh 
+Please fix `~/.zshrc.local`
+
