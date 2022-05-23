@@ -453,10 +453,10 @@
         "revision": "9bb10e7c1032abc2e15bf72002a58232d8c072dc"
       },
       "homebrew/cask": {
-        "revision": "f7ba6031c860399a97dd0cb367372149440d2e57"
+        "revision": "9da7f0767c2b5d6dacd925e2da9ad6f35a54470c"
       },
       "homebrew/core": {
-        "revision": "66370156796ec86eaf0888d0b821a6c0030e9143"
+        "revision": "289874c5219fecd206ccb5747eef72a1befa5fc8"
       },
       "stripe/stripe-cli": {
         "revision": "6db57428c85c1d02c1dbe1868205d73ef71a0df2"
@@ -468,7 +468,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "3.4.11",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "66370156796ec86eaf0888d0b821a6c0030e9143",
+        "Homebrew/homebrew-core": "289874c5219fecd206ccb5747eef72a1befa5fc8",
         "CLT": "12.5.0.0.1.1617976050",
         "Xcode": "12.5.1",
         "macOS": "11.5.1"
