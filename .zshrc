@@ -179,3 +179,6 @@ function peco-git-recent-branches () {
 }
 zle -N peco-git-recent-branches
 bindkey "^b" peco-git-recent-branches
+
+[ -f ~/.zshrc.local ] && source ~/.zshrc.local
+
