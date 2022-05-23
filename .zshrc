@@ -164,7 +164,7 @@ function peco-cdr () {
     zle accept-line
 }
 zle -N peco-cdr
-bindkey '^E' peco-cdr
+bindkey '^T' peco-cdr
 
 # git branch * peco
 function peco-git-recent-branches () {
