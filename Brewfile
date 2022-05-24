@@ -15,5 +15,7 @@ brew "redis"
 brew "starship"
 brew "stripe/stripe-cli/stripe"
 brew "go"
+brew "ghq"
 cask "dynamodb-local"
 cask "ngrok"
+
