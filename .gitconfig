@@ -8,3 +8,5 @@
 	sp = stash pop
 	br = branch
 	poh= push origin head
+[ghq]
+	root = ~/src
