@@ -16,6 +16,7 @@ brew "starship"
 brew "stripe/stripe-cli/stripe"
 brew "go"
 brew "ghq"
+brew "hugo"
 cask "dynamodb-local"
 cask "ngrok"
 
