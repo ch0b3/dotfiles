@@ -134,6 +134,9 @@ alias dcra="docker-compose run --rm app"
 alias dce="docker-compose exec"
 alias dcea="docker-compose exec app"
 alias be="bundle exec"
+gdb() {
+    git branch -r | grep 'origin/HEAD' | awk '{print $NF}' | sed -e 's/origin\///g' | xargs git co
+}
 
 # history search * peco
 function peco-history-selection() {
