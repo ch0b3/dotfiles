@@ -1,6 +1,6 @@
 export PATH=$HOME/.rbenv/shims:$PATH
 export PATH="/opt/homebrew/bin:$PATH"
-
+export PATH="/opt/homebrew/opt/openssl@3/bin:$PATH"
 # export ZSH="$HOME/.oh-my-zsh"
 
 # go
