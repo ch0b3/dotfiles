@@ -19,4 +19,5 @@ brew "ghq"
 brew "hugo"
 cask "dynamodb-local"
 cask "ngrok"
-
+cask "clipy"
+cask "notion"
