@@ -7,5 +7,5 @@
 	cm = commit -m
 	sp = stash pop
 	br = branch
-	poh= push origin head
+	poh = push origin head
 
