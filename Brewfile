@@ -21,6 +21,7 @@ brew "awscli"
 brew "docker"
 
 # Apps
+cask "karabiner-elements"
 cask "notion"
 cask "raycast"
 cask "google-japanese-ime"
