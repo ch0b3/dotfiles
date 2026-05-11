@@ -1,0 +1,13 @@
+# Environment-specific settings
+# Copy this file to ~/.zshrc.local and edit as needed.
+
+# Example: API tokens
+# export ESA_ACCESS_TOKEN="xxx"
+
+# Example: pyenv (if installed)
+# export PYENV_ROOT="$HOME/.pyenv"
+# export PATH="$PYENV_ROOT/bin:$PATH"
+# eval "$(pyenv init --path)"
+
+# Example: project-specific GOPATH
+# export GOPATH="$HOME/project/product"

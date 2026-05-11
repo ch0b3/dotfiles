@@ -1,25 +1,28 @@
-tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
-tap "stripe/stripe-cli"
-brew "openssl@1.1"
-brew "python@3.9"
-brew "awscli"
-brew "docker"
+# Dev tools
+brew "gh"
+brew "ghq"
+brew "peco"
+brew "starship"
+brew "jq"
+
+# AI coding agents
+brew "claude-code"
+brew "codex"
+
+# Languages & version managers
+brew "go"
 brew "node"
 brew "nodebrew"
-brew "peco"
-brew "ruby-build"
 brew "rbenv"
-brew "redis"
-brew "starship"
-brew "stripe/stripe-cli/stripe"
-brew "go"
-brew "ghq"
-brew "hugo"
-cask "visual-studio-code"
-cask "dynamodb-local"
-cask "ngrok"
-cask "clipy"
+brew "ruby-build"
+
+# Infrastructure
+brew "awscli"
+brew "docker"
+
+# Apps
+cask "karabiner-elements"
+cask "notion"
 cask "raycast"
 cask "google-japanese-ime"
+cask "visual-studio-code"
